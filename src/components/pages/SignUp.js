@@ -2,11 +2,13 @@ import React from 'react';
 import '../../App.css';
 import Footer from '../Footer';
 import { Link } from 'react-router-dom';
+import Navbar from '../Navbar';
 
 
 export default function SignUp() {
     return(
         <>
+         <Navbar />
         <section className="sign-up-form">
         <div className="form-container">
         <form id="form" className="form">

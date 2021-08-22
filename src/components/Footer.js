@@ -38,7 +38,7 @@ function Footer() {
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
-            <Link to='/' className='social-logo'>
+            <Link to='/home' className='social-logo'>
             <i class='fas fa-globe-americas' />
               LDTR
             </Link>

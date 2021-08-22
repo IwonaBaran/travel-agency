@@ -2,14 +2,14 @@ import React from 'react';
 import '../../App.css';
 import Main from '../Main';
 import Footer from '../Footer';
+import Navbar from '../Navbar';
 
 function Home() {
     return(
         <>
-        <div className="home-page">
+         <Navbar />
         <Main/>
         <Footer/>
-        </div>
         </>
     );
 };
