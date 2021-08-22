@@ -11,13 +11,13 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-               src="./images/amsterdam.jpg?raw=true"
+               src="/images/amsterdam.jpg?raw=true"
               text='Lorem ipsum is simply dummy text of the printing and typesetting industry.'
               label='AMSTERDAM From £99'
               path='/log-in'
             />
             <CardItem
-               src="./images/rome.jpg?raw=true"
+               src="/images/rome.jpg?raw=true"
               text='Lorem ipsum is simply dummy text of the printing and typesetting industry.'
               label='ROME From £79'
               path='/log-in'
@@ -25,19 +25,19 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-               src="./images/paris.jpg?raw=true"
+               src="/images/paris.jpg?raw=true"
               text='Lorem ipsum is simply dummy text of the printing and typesetting industry.'
               label='PARIS From £85'
               path='/log-in'
             />
             <CardItem
-              src="./images/prague.jpg?raw=true"
+              src="/images/prague.jpg?raw=true"
               text='Lorem ipsum is simply dummy text of the printing and typesetting industry.'
               label='PRAGUE From £89'
               path='/log-in'
             />
             <CardItem
-              src="./images/athens.jpg?raw=true"
+              src="/images/athens.jpg?raw=true"
               text='Lorem ipsum is simply dummy text of the printing and typesetting industry.'
               label='ATHENS From £99'
               path='/log-in'
