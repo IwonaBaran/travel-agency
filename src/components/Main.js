@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 function Main() {
     return (
         <div className="main-container">
-            <video src="../../../public/videos/video1.mp4" autoPlay loop muted />
+            <video src="../../public/videos/video1.mp4" autoPlay loop muted />
             <h1>PLAN YOUR NEXT JOURNEY</h1>
             <p>Where would you like to go?</p>
             <div className="main-btns">
