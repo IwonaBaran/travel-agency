@@ -12,11 +12,10 @@ import Intro from './components/pages/Intro';
 function App() {
   return (
     <>
-    <Router>
     
     <Router>
       <Switch>
-      <Route path="/" exact component={Intro} />
+      /<Route path="/travel-agency" exact component={Intro} />
         <Route path="/home" exact component={Home} />
         <Route path="/about" exact component={About} />
         <Route path="/offers" exact component={Offers} />
@@ -25,7 +24,7 @@ function App() {
         <Route path="/info" exact component={Info} />
       </Switch>
       </Router>
-      </Router>
+
     </>
   );
 }
